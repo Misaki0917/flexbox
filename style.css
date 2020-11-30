@@ -1,0 +1,25 @@
+ *{
+  margin: 0;
+  padding: 0;
+} 
+
+.flex1{
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+
+  /* 横並びは親要素に display:flex */
+  display: flex;
+  flex-direction: row;
+  /* flex-directionは横並び・縦並びを制御 */
+  justify-content: center;
+  /* justify-contentは水平方向の制御 */
+  align-items: center;
+  /* align-itemsは垂直方向の制御 */
+}
+
+/* flexboxのポイント
+flex-direction row・columnによって
+・justify-content
+・align-items
+制御する方向が変わる(水平・垂直) */
